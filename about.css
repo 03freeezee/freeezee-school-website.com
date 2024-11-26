@@ -1,0 +1,47 @@
+
+.vision-mission-container{
+
+ position: absolute;
+}
+.background-container{
+
+  height: 1340px;
+  width: 3000px;
+  background-image: url(pictures-design/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  position: relative;
+
+}
+
+
+.mission{
+
+
+  left: 1200px;
+  top: -235px;
+}
+
+.vision{
+
+  top: 300px;
+}
+.Floating-photo{
+
+
+  width: 300px;
+
+  top: 15px;
+}
+  
+.photo-container{
+
+
+  width: 450px;
+  top: 15px;
+  margin-left: 470px;
+
+
+}
+
+

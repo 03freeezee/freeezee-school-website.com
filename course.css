@@ -1,0 +1,171 @@
+.photo-container{
+
+
+  width: 450px;
+  top: 15px;
+  margin-left: 470px;
+
+
+}
+
+.Left-side,.middle-side,.Right-side{
+
+
+  width: 860px;
+
+
+
+}
+
+.image{
+
+  display: inline-block;
+  width: 150px;
+}
+
+
+.Left-side{
+
+  display: flex;
+  flex-direction: row;
+justify-content: center;
+align-content: center;
+}
+.icons{
+
+  width: 72px;
+
+}
+
+
+
+card{
+
+  position: absolute;
+}
+
+.footer-main-container{
+
+
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  
+
+
+
+}
+
+
+.follow-us{
+
+  color: white;
+  font-size: 29px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 75px;
+}
+p{
+
+  margin: 0;
+  
+}
+
+.course-text{
+
+
+padding-top: 150px;
+margin-bottom: 50px;
+
+}
+
+
+card{
+
+
+  background-color: lightgreen;
+}
+.background-container{
+
+
+  height: 1340px;
+  background-image: url(pictures-design/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+
+}
+
+.course-lalagyan{
+
+
+background-color: lightblue;
+height: 1500px;
+}
+
+.course-main-container{
+
+  display: grid;
+  grid-template-columns: 540px 540px 540px ;
+  justify-content: center;
+  align-items: center;
+  row-gap: 25px;
+  column-gap: 25px;
+
+
+
+}
+
+
+.Floating-photo{
+
+
+  width: 300px;
+
+  top: 15px;
+}
+  
+
+.course-container{
+
+
+  background-color: lightblue;
+
+}
+
+
+@media (max-width: 700px) {
+
+
+
+  .course-main-container{
+
+    display: grid;
+    grid-template-columns: 200px 200px 200px ;
+    justify-content: center;
+    align-items: center;
+    row-gap: 550px;
+    column-gap: 25px;
+  
+  
+  
+  }
+  
+
+  .photo-container{
+
+
+    width: 450px;
+    top: 15px;
+    margin-left: 20px;
+  
+  
+  }
+
+
+  
+
+  
+}
